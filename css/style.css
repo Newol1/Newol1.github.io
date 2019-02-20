@@ -1,3 +1,8 @@
+/*Убераем дефолтные стили на iOS*/
+input, textarea, select {
+    -webkit-appearance: none;
+}
+
 .wrapper {
     max-width: 85%;
     margin: 0 auto;

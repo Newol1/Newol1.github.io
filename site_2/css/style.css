@@ -1,3 +1,8 @@
+/*Убераем дефолтные стили на iOS*/
+input, textarea, select {
+    -webkit-appearance: none;
+}
+
 :root {
     --brand-slider-width: 400px;
     --section-space-between: 7rem;
