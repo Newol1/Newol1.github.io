@@ -1,0 +1,79 @@
+    @media (max-width: 500px) {
+        html{
+            font-size: 10px;
+        }
+        .wrapper {
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        .team_container {
+            grid-template-columns: 1fr;
+        }
+        .block .img {
+            width: 72px;
+        }
+        .block:nth-of-type(3) h3 {
+            padding-top: 1rem;
+        }
+        .block:nth-of-type(3) p {
+            padding-top: 1rem;
+        }
+        .block br {
+            display: block;
+        }
+        .slide-img {
+            width: 60%;
+            height: 52.5%;
+        }
+        #prev-btn, #next-btn {
+            margin-top: -35px;
+        } 
+        #real_cheap_prices aside.price_plan {
+        width: 193px;
+        }
+        #media i:nth-of-type(n+5) {
+            display: none;
+        }
+        #media span {
+            padding-top: 11px;
+            height: 28px;
+        }
+        #social_media .text{
+            padding-top: 1.4rem;
+        }
+        .team_container {
+            width: auto;
+        }
+        .flex-container {
+            width: 200px;
+        }
+        :root {
+            --brand-slider-width: 300px;
+        }
+        #brand_slider {
+            height: 220px;
+            overflow: hidden;
+        }
+        #our_powerful_skills .squares,
+        #our_powerful_skills .inverse_squares {
+            margin: 0;
+        }
+        .section_separator .key {
+            padding-top: 1.1rem;
+        }
+        #team_members .section_separator .key {
+        height: 31px;
+        padding-top: 18px;
+        }
+        #contact_us .section_separator {
+            margin-top: 104px;
+        }
+        #what_we_offer .tittle {width: 245px;}
+        #amazing_features .tittle {width: 275px;}
+        #our_powerful_skills .tittle {width: 301px;}
+        #our_powerful_skills .tittle h1{ font-size: 1.8rem; }
+        #sample_works .tittle {width: 240px;}
+        #company_facts .tittle {width: 245px;}
+        #team_members .tittle {width: 231px;}
+        #real_cheap_prices {width: 300px;}
+    }

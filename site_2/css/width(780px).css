@@ -1,0 +1,198 @@
+
+
+@media (max-width: 780px) {
+    #cover {
+        top: 0;
+        z-index: 500;
+        opacity: 0.7;
+        background: grey;
+        position: fixed;
+        width: 100vw;
+        /*height: 0%;*/
+    }
+    header .wrapper {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    header li,
+    header a {
+        display: block;
+        padding: 0rem 1rem;
+        z-index: 510;
+    }
+    header li:nth-of-type(1) {
+        float: right;
+        display: inline-block;
+        padding: 0;
+        padding-top: 0.2rem;
+        margin-left: 0;
+    }
+    header ul img {
+        display: none;
+        z-index: 510;
+    }
+    header ul {
+        z-index: 520;
+        max-width: 120px;
+        cursor: pointer;
+    }
+    header li:nth-of-type(n+2) {
+        display: none;
+    }
+
+    header li:nth-of-type(1) > div {
+        display: inline-block;
+        width: 25px;
+        float: right;
+    }
+    .team_container aside:nth-of-type(1) {
+        -webkit-background-size: 200px 180px;
+        background-size: 200px 180px;  }
+    .team_container aside:nth-of-type(2) {
+        -webkit-background-size: 200px 180px;
+        background-size: 200px 180px;
+    }
+    .team_container aside:nth-of-type(3) {
+        -webkit-background-size: 200px 180px;
+        background-size: 200px 180px;
+    }
+    .team_container aside:nth-of-type(4) {
+        -webkit-background-size: 200px 200px;
+        background-size: 200px 180px;
+    }
+    header li:nth-of-type(1) > a {
+        display: inline-block;
+    }
+    header li:nth-of-type(1) > a:hover {
+        background: none;
+        color: black;
+    }
+    header li:nth-of-type(2) a {
+        margin-top: 4rem;
+        /*height: 30px;*/
+    }
+    .rocket > img{
+        margin-left: 0;
+    }
+    .text {
+        display: inline-block;
+        padding-top: 1rem;
+    }
+
+    /*HEADER END*/
+
+
+    .lines,
+    .inv_lines {
+        display: none;
+    }
+    #features_block article:nth-of-type(4n+1) {
+        display: none;
+    }
+    #amazing_features .wrapper img {
+        display: none;
+    }
+    #amazing_features .ib {
+        width: 80%;
+    }
+    #amazing_features aside:first-of-type {
+        margin-top: 4rem;
+    }
+    #gallery {
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    }
+    #gallery .img_inf {
+        width: 250px;
+        height: 190px;
+    }
+    #gallery .container {
+        margin-top: 45px;
+    }
+    #gallery .illustration {
+        width: 250px;
+        height: 190px;
+    }
+    #gallery .illustration:nth-of-type(n+3) {
+        display: none;
+    }
+
+    .person_name {
+        margin-top: 165px;
+    }
+    .team_container {
+        width: 430px;
+    }
+    .team_container aside {
+        -webkit-background-size: 200px 180px;
+        background-size: 200px 180px;
+        height: 310px;
+        width: 200px;
+    }
+    .team_container aside .img_inf {
+        height: 180px;
+        width: 200px;
+    }
+    .team_container aside .container {
+        margin-top: 75px;
+    }
+    #team_members .section_separator .key {
+        height: 33px;
+        padding-top: 14px;
+    }
+    #gallery {
+        width: auto;
+    }
+    #company_facts #purchase h2 {
+        text-align: center;
+        display: block;
+    }
+    #company_facts #purchase nav {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    #price-plan-block {
+        width: auto;
+        max-width: 550px;
+    }
+    #media i:nth-of-type(n+9) {
+        display: none;
+    }
+    .flex-container {
+        width: 400px;
+    }
+    #contact_us form {
+        width: 280px;
+    }
+    #contact_us form textarea {
+        width: 205px;
+    }
+    #contact_us form * {
+        width: 205px;
+    }
+
+    @media (max-width: 570px) {
+        #price-plan-block {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .section_separator .key {
+        padding-top: 0.8rem;
+    }
+    #team_members .inverse_squares > div,
+    #team_members .squares > div {
+            display: none;
+        }
+
+    #what_we_offer .tittle {width: 285px;}
+    #amazing_features .tittle {width: 320px;}
+    #our_powerful_skills .tittle {width: 358px;}
+    #sample_works .tittle {width: 275px;}
+    #company_facts .tittle {width: 285px;}
+    #team_members .tittle {width: 255px;}
+    #real_cheap_prices .tittle {width: 320px;}
+
+}

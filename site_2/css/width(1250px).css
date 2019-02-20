@@ -1,0 +1,63 @@
+@media (max-width: 1250px) {
+    .wrapper {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    #what_we_offer .tittle,
+    #sample_works .tittle,
+    #team_members .tittle
+     {
+        width: 930px;
+        overflow: hidden;
+    }
+    #what_we_offer .lines,
+    #what_we_offer .inv_lines,
+    #sample_works .lines,
+    #sample_works .inv_lines,
+     {
+        width: 290px;
+    }
+
+    #team_members .tittle .inv_lines,
+    #team_members .tittle .lines {
+        width: 250px;
+    }
+    #real_cheap_prices .lines,
+    #real_cheap_prices .inv_lines {
+        width: 250px;
+    }
+    #real_cheap_prices .tittle {
+        width: 870px;
+    }
+    #gallery {
+        width: 680px;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+    .advantages {
+        margin-top: 4rem;
+    }
+    .section_separator .block {
+        margin-left: 0px;
+    }
+    .team_container {
+        grid-template-columns: 1fr 1fr;
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+    #price-plan-block {
+        grid-template-columns: 1fr 1fr;
+        width: 600px;
+    }
+    #viewport {
+        width: calc(100% * 2);
+    }
+    #slidewrapper {
+        width: calc((100%/2) *6);
+    }
+    #brand_slider .container {
+        width: calc(var(--brand-slider-width) * 2);
+    }
+
+}

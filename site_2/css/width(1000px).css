@@ -1,0 +1,91 @@
+@media (max-width: 1000px) {
+    html{
+        font-size: 12px;
+    }
+    .wrapper {
+        max-width: 1000px;
+    }
+    .section_separator .key {
+        padding-top: 0.75rem;
+    }
+    header ul {
+        max-width: 640px;
+    }
+    header .wrapper {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    header .text {
+        display: none;
+    }
+
+    #what_we_offer .tittle {
+        width: 689px;
+        overflow: hidden;
+    }
+    #what_we_offer .lines,
+    #what_we_offer  .inv_lines {
+        width: 200px;
+    }
+    .block .img {
+        width: 86px;
+    }
+    .block p {
+        max-width: 250px;
+    }
+    #sample_works .tittle {
+        width: 700px;
+    }
+    #sample_works .lines,
+    #sample_works .inv_lines {
+        width: 200px;
+    }
+    #amazing_features .ib {
+        width: 40%;
+    }
+    #amazing_features .tittle {
+        width: 320px;
+    }
+
+    #amazing_features img:nth-of-type(1) {
+        display: none;
+    }
+
+    #amazing_features img:nth-of-type(2) {
+        display: none;
+    }
+
+    #amazing_features img:nth-of-type(3) {
+        margin-top: 30px;
+    }
+
+    #amazing_features img:nth-of-type(4) {
+        margin-top: 72px;
+    }
+
+    #real_cheap_prices aside.price_plan {
+        width: 232px;
+    }
+
+    .team_container aside .social_media span {margin-top: 2px;}
+
+    #our_powerful_skills .tittle {width: 358px;}
+    #company_facts .tittle {width: 285px;}
+    #team_members .tittle {
+        width: 700px;
+    }
+    #team_members .tittle .lines,
+    #team_members .tittle .inv_lines {
+        width: 180px;
+    }
+    #real_cheap_prices .lines,
+    #real_cheap_prices .inv_lines {
+        width: 200px;
+    }
+    #real_cheap_prices .tittle {
+        width: 725px;
+    }
+    #contact_us .section_separator {
+        margin-top: 8.2rem;
+    }
+}
