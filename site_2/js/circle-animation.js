@@ -92,5 +92,3 @@ $(function () {
         }
     });
 });
-
-circle_animation();

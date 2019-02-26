@@ -1,0 +1,56 @@
+
+
+
+@media(max-width: 992px) {
+#about_us .triden::after {
+ content: ''; 
+ position: absolute; /* Абсолютное позиционирование */
+ left: 35vw; top: -20vh; /* Положение треугольника */
+ border: 40vw solid transparent; /* Прозрачные границы */
+ border-top: 80vh solid var(--main-black-color); /* Добавляем треугольник */
+}
+	html {font-size: 12px;}
+	h1 {font-size: 8rem; line-height: 6.5rem;}
+	h1 span:last-of-type {font-size: 4rem;}
+	header > img {width: 62%;}
+
+
+	header .navbar-collapse {
+	position: absolute;
+	background: var(--main-black-color);
+	padding: 0.5rem 1rem;
+	border-radius: 10px 0 0px 10px;
+	top: 4rem;
+	right: 0rem;
+	z-index: 2;
+}
+
+/*SECTION WHAT WE DO START*/
+#services #features article:nth-of-type(1) .logo {background-position: -58px 4px;}
+#services #features article:nth-of-type(2) .logo {background-position: 0px -49px;}
+#services #features article:nth-of-type(3) .logo {background-position: -61px -51px;}
+#services #features article:nth-of-type(4) .logo {background-position: -122px -2px;}
+#services #features article:nth-of-type(5) .logo {background-position: -2px 0px;}
+#services #features article:nth-of-type(6) .logo {background-position: -123px -49px;}
+/*SECTION WHAT WE DO END*/
+
+ 	#work_plan .part {
+ 		min-height: 225px;
+ 		min-width: 225px;
+ 		max-height: 225px;
+ 		max-width: 225px;
+ 	}
+ 	 	#work_plan .part:nth-of-type(3) {display: none;}
+	
+	#process .wrapper .flex-container {
+		justify-content: space-between;
+	}
+ 	#work_plan {
+ 		/*margin-right: -13%;*/
+ 		margin-left: 10%;
+ 		/*margin: 0;*/
+		min-width: auto;
+		justify-content: flex-start;
+ 	}
+
+}

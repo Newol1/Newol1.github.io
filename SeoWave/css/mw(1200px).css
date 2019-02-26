@@ -1,0 +1,37 @@
+@media(max-width: 1200px) {
+	html {font-size: 14px;}
+	#main-box {margin-left: 3%;}
+	#about_us .triden::after {
+ 		content: ''; 
+ 		position: absolute; /* Абсолютное позиционирование */
+ 		left: 40vw; top: -5vh; /* Положение треугольника */
+ 		border: 40vw solid transparent; /* Прозрачные границы */
+ 		border-top: 60vh solid var(--main-black-color); /* Добавляем треугольник */
+ 	}
+
+ 	/*SLIDER CHANGE START*/
+ 	#slider .slide {
+ 		-webkit-transform: scale(0.7);
+ 		-ms-transform: scale(0.7);
+ 		-o-transform: scale(0.7);
+ 		transform: scale(0.7);
+ 		margin-left: -100px;
+ 	}
+
+ 	#prev-btn {left: 0%;}
+ 	#next-btn {right: 0%;}
+ 	/*SLIDER CHANGE END*/
+
+ 	#work_plan .part {
+ 		min-height: 225px;
+ 		min-width: 225px;
+ 		max-height: 225px;
+ 		max-width: 225px;
+ 	}
+
+ 	#work_plan {
+ 		margin-right: -11%;
+		margin-left: 10%;
+		min-width: 78%;
+ 	}
+ }

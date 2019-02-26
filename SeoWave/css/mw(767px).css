@@ -1,0 +1,105 @@
+
+@media(max-width: 767px) {
+
+	#about_us .triden::after {
+ content: ''; 
+ position: absolute; /* Абсолютное позиционирование */
+ left: 50vw; top: -15vh; /* Положение треугольника */
+ border: 50vw solid transparent; /* Прозрачные границы */
+ border-top: 25vh solid var(--main-black-color); /* Добавляем треугольник */
+}
+	#main-box {margin: 0 auto; }
+	.main-container {text-align: center; margin-bottom: 4rem;}
+	
+	#about_us .wrapper > * {display: block; margin: 0 auto;}
+	#about_us img {
+	max-width: 99%;
+	float: none;
+	}
+	#about_us #who_we_are {
+		max-width: 80%;
+		text-align: center;
+		margin-top: 2rem;
+	}
+/*SECTION SERVICE START*/
+#services #features article {
+	max-width: 45%;
+	position: relative;
+}
+#services #features article:nth-of-type(n+3) {
+	margin-top: 6rem;
+}
+/*SECTION SERVICE END*/
+	 	/*SLIDER CHANGE START*/
+ 	#slider .slide {
+ 		-webkit-transform: scale(0.45);
+ 		-ms-transform: scale(0.45);
+ 		-o-transform: scale(0.45);
+ 		transform: scale(0.45);
+ 		margin-left: -180px;
+ 	}
+ 	#slider {
+ 		display: -webkit-inline-flex;
+ 		display: -moz-inline-flex;
+ 		display: -ms-inline-flex;
+ 		display: -o-inline-flex;
+ 		display: inline-flex;
+ 	}
+ 	#prev-btn {left: 10%;}
+ 	#next-btn {right: 10%;}
+ 	/*SLIDER CHANGE END*/
+#process  {
+	text-align: center;
+}
+#process .flex-container .text_block {
+	max-width: 100%;
+	order: 2;
+	margin-top: 10%;
+}
+#process .wrapper .flex-container {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+ 	#work_plan .part {
+ 		min-height: 180px;
+ 		min-width: 180px;
+ 		max-height: 180px;
+ 		max-width: 180px;
+ 	}
+
+	#process #work_plan .part:nth-of-type(n + 2) .text_block {
+		bottom: -1.5rem;
+		left: 2.5rem;
+	}
+	#process #work_plan .text_block {
+		max-width: 90%;
+		bottom: 4rem;
+		left: -0rem;
+	}
+#work_plan .part:nth-of-type(3) {display: inline-block;}
+#work_plan {
+	order: 1;
+	min-width: 100%;
+	max-width: 100%;
+	margin-left: 15%;
+	justify-content: flex-end;
+}
+
+#process .triden::after {
+ content: ''; 
+ position: absolute; /* Абсолютное позиционирование */
+ left: 80vw; top: 0vh; /* Положение треугольника */
+ border: 25vw solid transparent; /* Прозрачные границы */
+ border-top: 10vh solid var(--main-red-color); /* Добавляем треугольник */
+}
+
+@media(max-width: 640px) {
+
+#work_plan .part:nth-of-type(3) {display: none;}
+#work_plan {margin-left: 17%;}
+}
+
+}
