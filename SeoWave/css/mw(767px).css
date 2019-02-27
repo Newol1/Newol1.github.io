@@ -48,6 +48,7 @@
  	#prev-btn {left: 10%;}
  	#next-btn {right: 10%;}
  	/*SLIDER CHANGE END*/
+ 	/*SECTION PROCESS START*/
 #process  {
 	text-align: center;
 }
@@ -101,5 +102,44 @@
 #work_plan .part:nth-of-type(3) {display: none;}
 #work_plan {margin-left: 17%;}
 }
+/*SECTION PROCESS END*/
+/*SECTION CLIENTS START*/
+#clients {
+	text-align: center;
+}
+ 	#client_reviews {
+ 		margin-left: 0px;
+ 		max-width: 100%;
+ 	}
+ 	#clients .client_inf span {
+ 		left: 0px;
+ 		top: 350px;
+ 	}
+ 	#clients .client_img  {
+ 		width: 250px;
+ 		height: 250px;
+ 		float: none;
+		margin: 0 auto;
+ 	}
+ 	#clients .client_inf {
+ 		padding-left: 0px;
+ 		width: 100%;
+		margin: 0 auto;
+		margin-top: 2rem;
+ 	}
+ 	.other_clients {
+ 		margin-top: 2rem;
+ 	}
+ 	#contacts .flex-container div > * {
+ 		text-align: center;
+ 	}
+ 	#contacts .flex-container .logo {
+ 		float: none;
+ 		text-align: center;
+ 		margin: 0 auto;
+ 	}
+/*SECTION CLIENT END*/
+/**/
+
 
 }

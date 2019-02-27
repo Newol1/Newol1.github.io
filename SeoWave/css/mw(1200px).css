@@ -34,4 +34,21 @@
 		margin-left: 10%;
 		min-width: 78%;
  	}
+ 	/*SECTION SLIENTS START*/
+ 	#client_reviews {
+ 		margin-left: 100px;
+ 	}
+ 	#clients .client_inf span {
+ 		left: 450PX;
+ 	}
+ 	#clients .client_inf {
+ 		width: calc(100% - 350px);
+ 	}
+ 	#contacts .flex-container #phone_contact {
+ 		width: 200px;
+ 	}
+ 	#contacts .flex-container > * {
+	width: 260px;
+	}
+ 	/*SECTION CLIENTS END*/
  }

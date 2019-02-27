@@ -33,7 +33,7 @@
 #services #features article:nth-of-type(5) .logo {background-position: -2px 0px;}
 #services #features article:nth-of-type(6) .logo {background-position: -123px -49px;}
 /*SECTION WHAT WE DO END*/
-
+/*SECTION PROCESS START*/
  	#work_plan .part {
  		min-height: 225px;
  		min-width: 225px;
@@ -52,5 +52,22 @@
 		min-width: auto;
 		justify-content: flex-start;
  	}
-
+/*SECTION PROCESS END*/
+/*SECTION CONTACTS START*/
+#contacts .flex-container #email_contact .logo {
+	background-position: -130px -52px;
+	-webkit-background-size: 280%;
+	background-size: 280%;
+}
+#contacts .flex-container #phone_contact .logo {
+	background-position: -60px 10px;
+	-webkit-background-size: 280%;
+	background-size: 280%;
+}
+#contacts .flex-container #office_contact .logo {
+	background-position: 5px 5px;
+	-webkit-background-size: 280%;
+	background-size: 280%;
+}
+/*SECTION CONTACTS END*/
 }
