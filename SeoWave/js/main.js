@@ -5,6 +5,16 @@ var slider_time_transform = slider_time + "ms";
 var first_scale;
 
 $(function() {
+	// scroll animation
+	 $(".nav-link").on("click", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1000);
+    })
+	    $("header ul a:not(:eq(0))").click(function() {
+        if (menu.data("state") ==="on") show_nav();
+	    })
 	//SEARCH INPUT HANDLER
 	$("header .fa-search").data("state", "off");
 	$("header .fa-search").click(toggle_search_input);
