@@ -157,12 +157,14 @@
         width: auto;
         max-width: 550px;
     }
-    #media i:nth-of-type(n+9) {
+    #media a:nth-of-type(n+9) {
         display: none;
     }
-    .flex-container {
-        width: 400px;
+
+    #media a {
+        margin-top: 1rem;
     }
+
     #contact_us form {
         width: 280px;
     }

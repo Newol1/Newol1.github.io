@@ -1,30 +1,31 @@
 "use strict"
+var menu = $("header ul");
 
 $(function() {
-	    $("header ul").on("click","a", function (event) {
+	    $("header ul a").on("click", function (event) {
         event.preventDefault();
-        if ( $(window).width() < 780 ) {show_nav();
-         console.log("hello");}
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 1000);
     })
+	    $("header ul a:not(:eq(0))").click(function() {
+        if (menu.data("state") ==="on") show_nav();
+	    })
 })
 
 function show_nav() {
-		var menu = $("header li:eq(0)");
 	if ( menu.data("state") ==="on") {
 		$("#cover").animate({
 			"height" : "0%",
 		}, 500)
 		 menu.data("state", "off");
-		 $("body").css("overflow-y", "auto")
+		 $("body").css("overflow-y", "auto");
 	} else  {
 				$("#cover").animate({
 			"height" : "100%",
 			}, 500)
 		 menu.data("state", "on");
-		 $("body").css("overflow-y", "hidden")
+		 $("body").css("overflow-y", "hidden");
 		}
 
 

@@ -58,6 +58,9 @@
         #our_powerful_skills .inverse_squares {
             margin: 0;
         }
+        #contact_us .section_separator {
+        bottom: calc(-38px + 1rem);
+        }
         .section_separator .key {
             padding-top: 1.1rem;
         }

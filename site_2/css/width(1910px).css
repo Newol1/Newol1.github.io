@@ -1,0 +1,45 @@
+@media (min-width: 1910px) {
+    #gallery {
+        max-width: 1910px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    #gallery .illustration:nth-of-type(n+7) {
+        display: inline-block;
+    }
+
+    .team_container aside:nth-of-type(2) {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .team_container aside:nth-of-type(3) {
+        margin-right: 24px;
+    }
+
+    #gallery .illustration {
+        width: 313px;
+        margin: 1px;
+    }
+
+    #gallery .img_inf {
+        width: 313px;
+    }
+
+    #gallery input {
+        margin-left: 375px;
+    }
+    #gallery .wrap {
+        width: 1910px;
+    }
+    #brand_slider .nav_arrow:hover {
+        background: var(--main-light-color);
+        color: #2eb5ab;
+    }
+
+    #brand_slider .nav_arrow:last-of-type {
+        margin-left: 1550px;
+        margin-top: -148px;
+    }
+}
