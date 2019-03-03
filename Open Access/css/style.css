@@ -1,0 +1,106 @@
+:root {
+	--iner-unit-spacing: 10px;
+	--central-indent: 20px;
+	--indent-from-header-and-footer: 20px;
+	--indent-from-the-edges: 30px;
+
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  background: #F7F7F7;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.wrapper {
+	max-width: 100%;
+	margin: var(--iner-unit-spacing) var(--indent-from-the-edges);
+}
+
+h2 {
+	vertical-align: middle;
+}
+header {
+  height: 50px;
+  display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+  height: 80px;
+  text-align: center;
+}
+
+header, footer {
+  background: #FFFFFF;
+  color: #B2B5B9;
+  border: 2px solid #D6D6D6;
+}
+.main_margin {
+	margin: var(--indent-from-header-and-footer) 0;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-row {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-flex-direction: row;
+	flex-direction: column;
+	width: 100%;
+	justify-content: start;
+	max-height: 420px;
+}
+.flex-item_right {
+	margin-right: var(--central-indent);
+	max-width: calc(50% - 10px) !important;
+}
+.flex-item_left {
+	max-width: calc(50% - 10px) !important;
+
+}
+
+.flex-row .flex-item:nth-of-type(1) {order: 1;}
+.flex-row .flex-item:nth-of-type(2) {order: 3;}
+.flex-row .flex-item:nth-of-type(3) {order: 3;}
+.flex-row .flex-item:nth-of-type(4) {order: 1;}
+.flex-row .flex-item:nth-of-type(5) {order: 4;}
+.flex-row .flex-item:nth-of-type(6) {order: 2;}
+.flex-row .flex-item:nth-of-type(7) {order: 5;}
+
+.flex-item {
+	padding-top: 1rem;
+	flex: 0 0 50%;
+	max-width: 50%;
+	width: 50%;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 2px solid #D6D6D6;
+  background: #DAEDF9;
+  color: #3D5C7E;
+}
+
+
+.flex-item_small {height: 75px; max-height: 75px;}
+.flex-item_medium {min-height: 120px; height: 120px;}
+.flex-item_big {min-height: 160px; height: 160px;}
+.flex-item_margin-top { margin-top: var(--iner-unit-spacing);}
+
+
+@media {
+
+}
