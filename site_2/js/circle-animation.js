@@ -75,17 +75,17 @@ function circle_animation() {
 };
 
 function isVisible(tag) {
-    var t = $(tag);
-    var w = $(window);
-    var wt = w.scrollTop();
-    var tt = t.offset().top;
-    var tb = tt + t.height();
+    let t = $(tag);
+    let w = $(window);
+    let wt = w.scrollTop();
+    let tt = t.offset().top;
+    let tb = tt + t.height();
     return ((tb <= wt + w.height()) && (tt >= wt));
 }
 
 $(function () {
     $(window).scroll(function () {
-        var b = $("#our_powerful_skills");
+        let b = $("#our_powerful_skills");
         if (!b.prop("shown") && isVisible(b)) {
             b.prop("shown", true);
             circle_animation();

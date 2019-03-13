@@ -77,8 +77,8 @@ h3 {
 	font-weight: bold;
 	color: var(--main-white-color);
 	background: var(--main-red-color);
-	-webkit-box-shadow: -3px 11px 40px 0px rgba(0, 1, 1, 0.2); ;
-	box-shadow: -3px 11px 10px 0px rgba(0, 1, 1, 0.2); ;
+	-webkit-box-shadow: -3px 11px 40px 0 rgba(0, 1, 1, 0.2); ;
+	box-shadow: -3px 11px 10px 0 rgba(0, 1, 1, 0.2); ;
 }
 
 .wrapper {
@@ -115,10 +115,10 @@ header {
 	overflow: hidden;
 }
 header form input {
-	width: 0px;
+	width: 0;
 	background: var(--main-white-color);
 	color: var(--main-black-color);
-	margin: 0rem 0.5rem;
+	margin: 0 0.5rem;
 	background: transparent;
 	border-bottom: 1px solid black;
 }
@@ -163,7 +163,7 @@ header .button {
 	background: var(--main-white-color);
 	color: #242424;
 	margin-top: 1rem;
-	box-shadow: -3px 11px 40px 0px rgba(0, 1, 1, 0.47); 
+	box-shadow: -3px 11px 40px 0 rgba(0, 1, 1, 0.47);
 }
 
 header > img {
@@ -225,7 +225,6 @@ header > img {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	-ms-align-items: flex-start;
 	align-items: flex-start;
 	align-content: space-around;
 	margin-top: 5.5rem;
@@ -350,7 +349,7 @@ header > img {
 	transform: skewX(-30deg);
 }
 
-#work_plan .part:first-of-type {margin-left: 0%;}
+#work_plan .part:first-of-type {margin-left: 0;}
 
 #work_plan .part_wrapper {
 	position: absolute;

@@ -17,7 +17,7 @@
     header li,
     header a {
         display: block;
-        padding: 0rem 1rem;
+        padding: 0 1rem;
         z-index: 510;
     }
     header li:nth-of-type(1) {

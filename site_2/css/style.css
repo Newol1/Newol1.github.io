@@ -114,7 +114,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6
     {
     text-align: center;
 }
@@ -148,7 +148,7 @@ header li a {
 }
 
 header li a:nth-of-type(1) {
-    margin-left: 0px;
+    margin-left: 0;
 }
 header li:nth-of-type(1) {
     display: none;
@@ -279,7 +279,7 @@ header li a:hover {
     border: 0;
     height: 1px;
     margin-left: 10px;
-    background-image: -webkit-linear-gradient(to right, #dedede, #dedede, #f9f9f9));
+    background-image: -webkit-linear-gradient(to right, #dedede, #dedede, #f9f9f9);
     background-image: -moz-linear-gradient(to right, #dedede, #dedede, #f9f9f9);
     background-image: -ms-linear-gradient(to right, #dedede, #dedede, #f9f9f9);
     background-image: -o-linear-gradient(to right, #dedede, #dedede, #f9f9f9);
@@ -474,13 +474,13 @@ header li a:hover {
 #amazing_features .inverse_square_1,
 #amazing_features .square_1,
 #our_powerful_skills .inverse_square_1,
-#our_powerful_skills.square_1,
+#our_powerful_skills.square_1
     {
     background: var(--main-green-color) ;
 }
 
 #amazing_features .inverse_square_2,
-#amazing_features .square_2.,
+#amazing_features .square_2,
 #our_powerful_skills .inverse_square_2,
 #our_powerful_skills .square_2 {
     background: #11877F;
@@ -855,8 +855,6 @@ img:nth-of-type(3) {
     -webkit-touch-callout: none;
     /* iOS Safari */
     -webkit-user-select: none;
-    /* Safari */
-    -khtml-user-select: none;
     /* Konqueror HTML */
     -moz-user-select: none;
     /* Firefox */

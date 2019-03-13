@@ -18,8 +18,8 @@
  		margin-left: -100px;
  	}
 
- 	#prev-btn {left: 0%;}
- 	#next-btn {right: 0%;}
+ 	#prev-btn {left: 0;}
+ 	#next-btn {right: 0;}
  	/*SLIDER CHANGE END*/
 
  	#work_plan .part {

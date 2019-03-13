@@ -19,18 +19,18 @@
 	position: absolute;
 	background: var(--main-black-color);
 	padding: 0.5rem 1rem;
-	border-radius: 10px 0 0px 10px;
+	border-radius: 10px 0 0 10px;
 	top: 4rem;
-	right: 0rem;
+	right: 0;
 	z-index: 2;
 }
 
 /*SECTION WHAT WE DO START*/
 #services #features article:nth-of-type(1) .logo {background-position: -58px 4px;}
-#services #features article:nth-of-type(2) .logo {background-position: 0px -49px;}
+#services #features article:nth-of-type(2) .logo {background-position: 0 -49px;}
 #services #features article:nth-of-type(3) .logo {background-position: -61px -51px;}
 #services #features article:nth-of-type(4) .logo {background-position: -122px -2px;}
-#services #features article:nth-of-type(5) .logo {background-position: -2px 0px;}
+#services #features article:nth-of-type(5) .logo {background-position: -2px 0;}
 #services #features article:nth-of-type(6) .logo {background-position: -123px -49px;}
 /*SECTION WHAT WE DO END*/
 /*SECTION PROCESS START*/

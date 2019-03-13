@@ -110,20 +110,20 @@ header li:hover {
     background: #ff3f40;
 }
 
-#menu #main_text_block {
+#menu .main_text_block {
     margin-top: 6.3rem;
 }
 
-#main_text_block {
+.main_text_block {
     width: 520px;
     display: inline-block;
 }
-#main_text_block p{
+.main_text_block p{
     padding-top: 2rem;
     text-align: justify;
 }
 
-#main_text_block input {
+.main_text_block input {
     margin-top: 60px;
     border-radius: 5px;
     padding: 1rem 4rem;

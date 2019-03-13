@@ -1,8 +1,8 @@
-var active = Math.round((($("#slider .slide").length)/2 ) - 1);
-var click_state_slider = "off";
-var slider_time = 1500;
-var slider_time_transform = slider_time + "ms";
-var first_scale;
+let active = Math.round((($("#slider .slide").length)/2 ) - 1);
+let click_state_slider = "off";
+let first_scale;
+let slider_time = 1500;
+let slider_time_transform = slider_time + "ms";
 
 $(function() {
 	// scroll animation
@@ -35,7 +35,7 @@ $(function() {
 		    main_slide();
 		    $(window).off('scroll');
   }})
-})
+});
 
 
 

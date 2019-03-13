@@ -40,9 +40,6 @@
  	}
  	#slider {
  		display: -webkit-inline-flex;
- 		display: -moz-inline-flex;
- 		display: -ms-inline-flex;
- 		display: -o-inline-flex;
  		display: inline-flex;
  	}
  	#prev-btn {left: 10%;}
@@ -59,9 +56,7 @@
 }
 #process .wrapper .flex-container {
 		-webkit-flex-direction: column;
-		-moz-flex-direction: column;
 		-ms-flex-direction: column;
-		-o-flex-direction: column;
 		flex-direction: column;
 	}
  	#work_plan .part {
@@ -92,7 +87,7 @@
 #process .triden::after {
  content: ''; 
  position: absolute; /* Абсолютное позиционирование */
- left: 80vw; top: 0vh; /* Положение треугольника */
+ left: 80vw; top: 0; /* Положение треугольника */
  border: 25vw solid transparent; /* Прозрачные границы */
  border-top: 10vh solid var(--main-red-color); /* Добавляем треугольник */
 }
@@ -108,11 +103,11 @@
 	text-align: center;
 }
  	#client_reviews {
- 		margin-left: 0px;
+ 		margin-left: 0;
  		max-width: 100%;
  	}
  	#clients .client_inf span {
- 		left: 0px;
+ 		left: 0;
  		top: 350px;
  	}
  	#clients .client_img  {
@@ -122,7 +117,7 @@
 		margin: 0 auto;
  	}
  	#clients .client_inf {
- 		padding-left: 0px;
+ 		padding-left: 0;
  		width: 100%;
 		margin: 0 auto;
 		margin-top: 2rem;
