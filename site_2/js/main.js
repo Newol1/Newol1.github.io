@@ -1,5 +1,6 @@
 "use strict"
 var menu = $("header ul");
+alert("Hello world");
 
 $(function() {
 	    $("header ul a").on("click", function (event) {
