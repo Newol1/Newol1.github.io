@@ -1,0 +1,1 @@
+"use strict";document.body.onload=function(){setTimeout(()=>{var a=document.getElementById("page-preloader");a.classList.contains("done")||a.classList.add("done")},1e3)};
